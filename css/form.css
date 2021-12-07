@@ -1,0 +1,128 @@
+
+
+button{
+    border-radius: 1rem;
+}
+form {
+    border:1px solid #ccc;
+    border-style: groove; 
+    position: relative;
+}
+form h1{
+    text-align: center;
+}
+form span {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    font-size: 2rem;
+  
+  }
+  .signupbtn {
+    background-color:#243a6f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .signupbtn:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .form-container {
+    padding: 16px;
+  }
+  
+.popProperty {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 1;
+    z-index: 99999999;
+  }
+  .popProperty:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .xButton {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    z-index: 100;
+  }
+  .popup .xButton:hover {
+    color: #06D85F;
+  }
+  .popup .popContent {
+    max-height: 30%;
+    overflow: auto;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  #mop{
+    margin: 2rem;
+  }
+
+  @media screen and (max-width: 700px){
+  
+    .popup{
+      width: 70%;
+      margin: auto;
+    }
+  }

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/Logo.svg" type="image/x-icon">
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!-- General StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+     <!-- Form StyleSheet -->
+     <link rel="stylesheet" href="./css/form.css" />
+    <!-- Footer icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- Cart Script -->
+    <script src="./js/cart.js" async></script>
+
+    <!-- Custom Script -->
+    <script src="./js/shop.js" async></script> 
+  
+
+
+    <title>Chickaton - Ecommerce Website</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="navigation container">
+            <div class="logo">
+                <img src="./images/topLogo.svg" id="chicklogo" alt="manokCover" />
+                 <h1>Chickaton</h1>
+               </div>
+       
+
+            <div class="menu">
+                <div class="top-nav">
+                    <div class="logo">
+                        <h1>Chickaton</h1>
+                    </div>
+                    <div class="close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link shop">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link scroll-footer">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link icon"><i class="bx bx-shopping-bag nav-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="hamburger">
+                <i class="bx bx-menu"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Put it in pleasant position -->
+ 
+    <!-- All Products -->
+    <div class="all">
+    <section class="section all-products " id="products">
+        <div class="top container" id="top-content">
+            <h1>All Chickabooms</h1>
+            <form>
+                <select id="activitySelector">
+                    <option value="1">Chickens</option>
+                    <option value="2">Items</option>
+                </select>
+                <span><i class='bx bx-chevron-down'></i></span>
+            </form>
+        </div>
+        <section id ="chickenItems">
+        <div class="product-center container" id ="chickenItems">
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/shop1.png" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                       <span><i class="bx bx-shopping-bag"></i></span>
+                      
+                       <a href="https://www.google.com/search?q=Dong+Tao"><span><i class="bx bx-search"></i></span></a>
+                        
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="product-details.html">
+                        <h3 class="item-title">Dong Tao</h3>
+                    </a>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱75,480</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/shop2.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span id="1"><i class="bx bx-shopping-bag"></i></span>
+                        <!-- <a href="https://www.google.com/search?q=Brahma+chicken"> -->
+                       <a href="https://www.google.com/search?q=Brahma+chicken"><span><i class="bx bx-search"></i></span></a></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Brahma</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱1520</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/pic1.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Ayam+Cemani"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Ayam Cemani</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱252,887</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/pic4.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Silkie+Bantam"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Cute Silkie Bantam</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱4,530</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/shop4.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Bresse+chicken"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Bresse</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱2,516</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/Leghorn.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Leghorn+chicken"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Leghorn</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱3,526</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/serama.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Serama+chicken"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Serama</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱6,410</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/aseel.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Aseel+chicken"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Shamo</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱10,003</h4>
+                </div>
+            </div>
+        </div>
+     </section>
+    </section>
+    <section id="products">
+        <section id = "productItems"> 
+        <div class="product-center container">
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/pic2.jpg" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Bexan+Vitamins"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="product-details.html">
+                        <h3 class="item-title">Bexan Vitamins</h3>
+                    </a>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱265</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/pic3.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Chicken+Tari"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Chicken Tari</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱20,000</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/Eton_1kg_plastic_feeder.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Eton+plastic+feeder"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Eton 1kg plastic feeder</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱267</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/trainer.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Chicken+Leather+Training+Dummy"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Leather Training Dummy</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱1,100</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/cage.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Cock+Cage"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Cock Cage</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱645</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/cutter.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Rooster+Toe+PuncherNail"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Rooster Toe PuncherNail</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱430</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/feeds.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Bmeg+chicken+Feeds"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Bmeg Feeds 25KG</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱810</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img class = "item-image" src="./images/Drinker.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <a href="https://www.google.com/search?q=Automatic+Chicken+Drinker"><span><i class="bx bx-search"></i></span></a>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3 class="item-title">Automatic Chicken Drinker</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">₱200</h4>
+                </div>
+            </div>
+        </div>
+     </section>
+    </section>
+</div>
+    <!-- <section class="pagination">
+        <div class=" container">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span><i class='bx bx-right-arrow-alt'></i></span>
+        </div>
+    </section> -->
+    <!-- temp -->
+    <div class="container-md cart">
+        <table class ="tbl">
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+        </table>
+    
+        <div class="total-price">
+          <table>
+            <tr>
+              <td >Subtotal</td>
+              <td class = "sub-total">₱0</td>
+            </tr>
+            <tr>
+              <td>Shipping fee</td>
+              <td>₱50.32</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td class="cart-total-price">₱0</td>
+            </tr>
+          </table>
+          <a href="#" class="checkout btnCart" onclick="checkout()">Proceed To Checkout</a>
+        </div>
+      </div>
+
+    <!-- User Info -->
+      <div id="popup1" class="popProperty">
+        <div class="popup">
+            <div class="popContent">
+                <form>
+                    <div class="form-container">
+                        <a class="xButton" onclick="closePop()">&times;</a>
+                      <h1>Sign Up</h1>
+                      <p>Please fill in this form to purchase.</p>
+                      <hr>
+                  
+                      <label for="email"><b>Name</b></label>
+                      <input type="text" placeholder="Enter Name" name="name" required>
+                  
+                      <label for="psw"><b>Email</b></label>
+                      <input type="text" placeholder="Enter Email" name="email" required>
+                  
+                      <label for="psw-repeat"><b>Address</b></label>
+                      <input type="text" placeholder="Enter Address" name="address" required>
+                      <label for="mop">Choose a payment method:</label>
+
+                        <select id="mop">
+                        <option value="cod">Cash on delivery</option>
+                        <option value="gcash">G-Cash</option>
+                        <option value="cc">Credit cards</option>
+                        <option value="btc">Bitcoin</option>
+                        </select>
+                      
+                      <p>By purchasing chickabooms you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                  
+                        <button class="signupbtn" onclick="home()">Purchase</button>
+        
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+   <!-- Footer -->
+   <div class="overlay">
+    <footer id="footer" class=" footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-center">
+            <h3>CONTACT US</h3>
+            <div>
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+            San pedro 8543 street Davao City
+            </div>
+            <div>
+              <span>
+                <i class="far fa-envelope"></i>
+              </span>
+              chickaton@gmail.com
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-phone"></i>
+              </span>
+              +6392140540
+            </div>
+            <div>
+              <span>
+                <i class="far fa-paper-plane"></i>
+              </span>
+             Philippines
+            </div>
+          </div> 
+        </div>
+      </div>
+      <h5 id="copyright"> Copyright © 2021 Yousef ®</h5>
+    </div>
+  
+    </footer>
+    <!-- End Footer -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Index -->
+    <script scr="./index.js"></script>
+
+</body>
+
+</html>
